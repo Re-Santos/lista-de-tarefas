@@ -5,20 +5,41 @@
 }
 
 body{
-    
+   height: 100vh;
     display:flex;
     align-items: center;
     justify-content: center;
-    
+       
 }
 .container{
-    font-size: 18px;
-    border:2px solid white;
-    padding: 40px 30px 20px;
-    width: 35%;
-   margin-top: 15%;
-   margin-left: 20%;
     
+    border:2px solid white;
+    padding: 30px 40px;
+    width: 40%;
+       
 }
 
+.task-conteudo{
+    background-color: aliceblue;
+    padding:30px 20px;
+    border-radius:5px;
+    box-shadow: 0 15px 30px;
+    display: flex;
+    justify-content: center;
+}
+.task-conteudo input{
+    flex: 3;
+    font-size: 16px;
+    border: 2px solid #d1d3d4;
+    border-radius: 5px;
+    padding:12px;
+    font-weight:500 ;
 
+}
+    .task-button{
+        flex:1;
+        border-radius: 5px;
+        height: 100%;
+        font-size: 16px;
+        border:none;
+    }
