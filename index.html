@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>document</title>
-    <link rel="stylesheet" href="styles.css"/>
-</head>
-<body>
-    <div class="container">
-        <div class="task-conteudo">
-            <input type="text" class="task" placeholder="Digite uma nova tarefa">
-            <button class="task-button">Incluir Tarefa</button>
-        </div>
-             
-        <div class="task-container"></div>
+<html lang="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>LISTA DE TAREFAS</h1>
+    <form name="form-container ">
+        <label for="task">Tarefa:</label>
+        <input type="text" name="task-input" id="task" placeholder="Digite uma nova Tarefa">
+        
+        <button type= "button" onclick= " Incluir Tarefa"></button>
+    </form>
 
+      <div class="tarefas-container"></div>
     </div>
-    <script src="./script.js"></script>
-</body>
+
+     
+    <script src="./scripts.js"></script>
+  </body>
 </html>

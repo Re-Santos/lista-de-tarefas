@@ -1,25 +1,17 @@
-const inputElement = document.querySelector(`task-conteudo`);
-const addTaskButton = document.querySelector(`task-button`);
+const inputElement = document.querySelector(".task-input");
+const addTaskButton = document.querySelector(".task-button");
 
-const validateInput= () => inputElement.ariaValueMax.trim().length>0;
+const tasksContainer = document.querySelector(".tarefas-container");
 
-const handleAddtask = () => {
-    const inputIsValide = validateInput();
+const validateInput = () => inputElement.value.trim().length > 0;
 
- console.log(inputIsValide);
+const handleAddTask = () => {
+  const inputIsValid = validateInput();
 
-    if (!inputIsValide){
-        return inputElement.classList.add(`Error`);
-    }
-};
+  console.log(inputIsValid);
 
-const handleInputChange = () => {
-    const inputValido = validateInput();
+  if (!inputIsValid) {
+    return inputElement.classList.add("error");
+  }
 
-    if (inputValido){
-        return inputElement.classList.remove(`error`);
-    }
-};
-
-addTaskButton.addEventListener(`click`, () => handleAddtask());
-inputElement.addEventListener(`change`, () => handleInputChange());
+   
