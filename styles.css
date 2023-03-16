@@ -32,24 +32,42 @@ body{
 .task-conteudo input{
     flex: 3;
     font-size: 16px;
-    border: 2px solid #d1d3d4;
+    border: 2px solid white;
     border-radius: 5px;
     padding:12px;
     font-weight:500 ;
 
 }
-    .task-button{
-        flex:1;
-        border-radius: 5px;
-        font-weight:500 ;
-        height: 100%;
-        font-size: 16px;
-        border:none;
-        background-color: aqua;
-        color:black;
-        padding:12px;
-        cursor:pointer;
-        
-    }
-   
+.task-conteudo input:focus {
+    outline: none;
+    border-color: violet;
+}
 
+.task-button{
+    flex:2;
+    border-radius: 5px;
+    font-weight: 500;
+    height: 100%;
+    font-size: 16px;
+    border:none;
+    background-color: aquamarine;
+    color: black;
+    padding: 12px;
+    margin-left: 4px;
+    cursor:pointer;
+
+}
+      
+   
+.task-button:hover{
+    transform: scale(1.1);
+}
+
+.task-container{
+    background-color: white;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px;
+    width: 100%;
+}
