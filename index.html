@@ -10,14 +10,19 @@
   <body>
     <h1>LISTA DE TAREFAS</h1>
     <form name="form-container ">
-        <label for="task">Tarefa:</label>
-        <input type="text" name="task-input" id="task" placeholder="Digite uma nova Tarefa">
+        <label for="task"></label>
+        <input type="text" name="task-input" id="task">
         
-        <button type= "button" onclick= " Incluir Tarefa"></button>
+        <button type= "button" onclick= " add()"></button>
     </form>
 
-      <div class="tarefas-container"></div>
-    </div>
+    <fiedldset>
+      <legend> Terefas:</legend>
+      <ul>
+        <li> Organizar planilhas</li>
+        <li> Realizar pagamentos</li>
+      </ul>
+    </fiedldset>
 
      
     <script src="./scripts.js"></script>
