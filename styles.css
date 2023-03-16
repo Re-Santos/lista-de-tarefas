@@ -40,7 +40,7 @@ body{
 }
 .task-conteudo input:focus {
     outline: none;
-    border-color: violet;
+    border-color: aquamarine;
 }
 
 .task-button{
@@ -70,4 +70,12 @@ body{
     border-radius: 10px;
     box-shadow: 0 15px 30px;
     width: 100%;
+}
+
+.error {
+    border: 2px solid red !important;
+}
+
+.error::placeholder{
+    color:red;
 }
