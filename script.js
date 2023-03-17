@@ -1,17 +1,27 @@
-const inputElement = document.querySelector(".task-input");
-const addTaskButton = document.querySelector(".task-button");
+function createCloseButton(li){
+    let span = document.createElement("SPAN");
+    let txt = document.createTextNode("\u00D7");
 
-const tasksContainer = document.querySelector(".tarefas-container");
+    span.className = "close";
+    span.appendChild(txt);
+    li.appendChild(span);
 
-const validateInput = () => inputElement.value.trim().length > 0;
+    span.onclick = () => span.parentElement.style.display = "none";
+}
+document.querySelectorAll("li").forEach(createCloseButton);
+document.querySelector("ul").addEventListener("click", (e)=>{
+    if(e.target.tagName === "LI")
+    e.target.classList.toggle("checked");
+});
 
-const handleAddTask = () => {
-  const inputIsValid = validateInput();
+function add(){
+    let li = document.createAttribute.Element("Li");
+    let input_value = document.form_main.task.value;
+    let input_text = document.createTextNode(input_value);
 
-  console.log(inputIsValid);
+    li.appendChild(input_text);
+    document.querySelector("ul").appendChild(li);
+    document.form_main.task.value = "";
 
-  if (!inputIsValid) {
-    return inputElement.classList.add("error");
-  }
-
-   
+    createCloseButton(li)
+}
