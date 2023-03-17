@@ -1,14 +1,14 @@
 
-                                                            🗄️ <b> size="2"LISTA DE TAREFAS
+                                                            🗄️ <b> <h1> LISTA DE TAREFAS </h1></b>
                                                             
    ![image](https://user-images.githubusercontent.com/123095086/225997936-0e9226ca-a528-41df-bfa0-f2343e5b4d0a.png)
 
 
-📝 <b>Descrição
+📝 <b> Descrição</b>
 
 Projeto adiciona tarefas diárias em uma caixa de texto.
 
-📚 <b>Como Utilizar
+📚 <b> Como Utilizar</b>
 
  1° Adicione uma tarefa na caixa de texto ("Digite sua tarefa").<br>
  2° Clique no botão "Icluir tarefa"; A tarefa será adiconada a lista de tarefas.<br>
@@ -16,7 +16,7 @@ Projeto adiciona tarefas diárias em uma caixa de texto.
  4° Para excluir a tarefa, clique em cima do icone de lixeira, localizado ao lado de cada tarefa.<br>
  
   
-🔧 <b>Tecnologias utilizadas
+🔧 <b>Tecnologias utilizadas</b>
 
 ![image](https://user-images.githubusercontent.com/123095086/225997255-955ae5ed-56a2-42da-8316-38570fc7c32c.png)
 
@@ -24,10 +24,10 @@ Projeto adiciona tarefas diárias em uma caixa de texto.
 
 ![image](https://user-images.githubusercontent.com/123095086/225999519-49297126-d219-4db0-97f1-40655f98e27e.png)
 
-🚀<b> Rodando o projeto
+🚀<b> Rodando o projeto</b>
 
 Acessar o site: https://re-santos.github.io/lista-de-tarefas/
 
-🎯<b> Status do projeto
+🎯<b> Status do projeto</b>
 
 Concluído
