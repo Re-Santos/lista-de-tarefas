@@ -11,7 +11,7 @@ Projeto adiciona tarefas diárias em uma caixa de texto.
 
  1° Adicione uma tarefa na caixa de texto ("Digite sua tarefa").<br>
  2° Clique no botão "Icluir tarefa"; A tarefa será adicionada a lista de tarefas.<br>
- 3° Na lista de tarefas você pode marcar a tarefa concluída, clicado em cima da palavra, que ficara tachada.<br>
+ 3° Na lista de tarefas você pode marcar a tarefa concluída, clicado em cima da palavra, que ira aparecer tachada.<br>
  4° Para excluir a tarefa, clique em cima do icone de lixeira, localizado ao lado de cada tarefa.<br>
  
   
