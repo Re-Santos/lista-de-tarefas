@@ -1,10 +1,10 @@
 
-                                                            🗄️ <b> LISTA DE TAREFAS </b>
+                                                            🗄️#LISTA DE TAREFAS 
                                                             
    ![image](https://user-images.githubusercontent.com/123095086/225997936-0e9226ca-a528-41df-bfa0-f2343e5b4d0a.png)
 
 
-📝 <b> Descrição</b>
+📝 ##Descrição
 
 Projeto adiciona tarefas diárias em uma caixa de texto.
 
